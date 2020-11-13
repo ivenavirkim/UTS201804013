@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/View"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text=""
+         android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_profil"
+        style="@style/ButtonLogin"
+        android:background="#11000000"
+        android:text="Profil"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/btn_rycleview"
+        style="@style/ButtonLogin"
+        android:text="RycleView"
+        tools:layout_editor_absoluteX="161dp"
+        android:background="#11000000"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/btn_web"
+        style="@style/ButtonLogin"
+        android:background="#11000000"
+        android:text="WEB"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/btn_intent"
+        style="@style/ButtonLogin"
+        android:background="#11000000"
+        android:text="Intent"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+</LinearLayout>
